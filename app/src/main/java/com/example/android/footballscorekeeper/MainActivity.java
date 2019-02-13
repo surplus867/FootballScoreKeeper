@@ -124,7 +124,7 @@ public class MainActivity extends AppCompatActivity {
     /**
      * Reset the score for both teams back to zero.
      */
-    public void resetScore (View v) {
+    public void resetScore (View v){
         scoreHome = 0;
         scoreAway = 0;
         displayHome(scoreHome);
@@ -140,7 +140,7 @@ public class MainActivity extends AppCompatActivity {
         TextView scoreView = (TextView) findViewById(R.id.home_score);
         scoreView.setText(String.valueOf(score));
     }
-    /**
+       /**
      * Displays the given score for Away Team.
      */
     public void displayAway(int score) {
